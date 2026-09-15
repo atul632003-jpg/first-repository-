@@ -1,0 +1,81 @@
+========================================
+CPU SCHEDULING BENCHMARK
+========================================
+
+---- CPU 0 ----
+
+FCFS Scheduling
+-------------------------
+P1: Completion=7, Waiting=0, Turnaround=7, Response=0
+P2: Completion=10, Waiting=6, Turnaround=9, Response=6
+P3: Completion=12, Waiting=8, Turnaround=10, Response=8
+
+Metrics
+-------------------------
+Average Waiting Time    = 4.67
+Average Turnaround Time = 8.67
+Average Response Time   = 4.67
+
+Gantt Timeline
+-------------------------
+| P1 | P1 | P1 | P1 | P1 | P1 | P1 | P2 | P2 | P2 | P3 | P3 |
+0    1    2    3    4    5    6    7    8    9    10    11    12
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+---- CPU 1 ----
+
+FCFS Scheduling
+-------------------------
+P1: Completion=7, Waiting=0, Turnaround=7, Response=0
+P2: Completion=10, Waiting=6, Turnaround=9, Response=6
+P3: Completion=12, Waiting=8, Turnaround=10, Response=8
+
+Metrics
+-------------------------
+Average Waiting Time    = 4.67
+Average Turnaround Time = 8.67
+Average Response Time   = 4.67
+
+Gantt Timeline
+-------------------------
+| P1 | P1 | P1 | P1 | P1 | P1 | P1 | P2 | P2 | P2 | P3 | P3 |
+0    1    2    3    4    5    6    7    8    9    10    11    12
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.002s
+
+---- NUMA Node 0 ----
+
+FCFS Scheduling
+-------------------------
+P1: Completion=7, Waiting=0, Turnaround=7, Response=0
+P2: Completion=10, Waiting=6, Turnaround=9, Response=6
+P3: Completion=12, Waiting=8, Turnaround=10, Response=8
+
+Metrics
+-------------------------
+Average Waiting Time    = 4.67
+Average Turnaround Time = 8.67
+Average Response Time   = 4.67
+
+Gantt Timeline
+-------------------------
+| P1 | P1 | P1 | P1 | P1 | P1 | P1 | P2 | P2 | P2 | P3 | P3 |
+0    1    2    3    4    5    6    7    8    9    10    11    12
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.002s
+
+---- NUMA Hardware ----
+available: 1 nodes (0)
+node 0 cpus: 0 1
+node 0 size: 7942 MB
+node 0 free: 200 MB
+node distances:
+node   0 
+  0:  10 

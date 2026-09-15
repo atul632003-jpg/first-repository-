@@ -1,0 +1,21 @@
+SCHEDULING ALGORITHM COMPARISON
+===============================
+
+Common Workload
+---------------
+
+Process    Arrival    Burst    Priority
+P1            0         7         2
+P2            1         3         1
+P3            2         2         3
+
+Round Robin Quantum = 2
+
+
+Algorithm       Avg Waiting    Avg Turnaround    Avg Response
+--------------------------------------------------------------
+FCFS               4.33             8.33             4.33
+SJF                 4.33             8.33             4.33
+SRTF                2.00             6.33             0.33
+Priority            3.67             7.67             2.67
+Round Robin         4.00             8.00             1.00
